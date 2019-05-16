@@ -24,6 +24,11 @@ Just cd into the src directory and compile using :
 gcc -Wall -Werror -lcap -lseccomp confiner.c include/* core/* -o confiner
 ```
 
+If you need a container root filesystem, you can download a light alpine tarball :
+https://alpinelinux.org/downloads/
+
+Untar the file and use it as the mountpath of your container.
+
 ## Usage
 
 ```
